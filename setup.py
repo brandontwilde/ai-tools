@@ -22,7 +22,7 @@ setup(
     author='Brandon T Wilde',
     author_email='brandon.t.wilde@gmail.com',
     description='A collection of general-purpose tools for processing text, documents, images, and videos.',
-    url='https://github.com/brandonwilde/ai-tools',
+    url='https://github.com/brandontwilde/ai-tools',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
