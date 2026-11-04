@@ -1,4 +1,4 @@
-# ai-tools [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/brandonwilde/ai-tools)
+# ai-tools [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/brandontwilde/ai-tools)
 
 A collection of general-purpose tools for processing text, documents, and images. Requires connecting to third-party APIs.
 
@@ -31,11 +31,11 @@ The tools are generally intended to be called by other scripts. Example use case
 
 To use the tools in a separate project, install a tagged release from source with
 ```bash
-pip install "aitools[<extras>] @ git+https://github.com/brandonwilde/ai-tools.git@vX.Y.Z"
+pip install "aitools[<extras>] @ git+https://github.com/brandontwilde/ai-tools.git@vX.Y.Z"
 ```
 Replace `<extras>` with a comma-separated list of extra dependencies. Options are `openai`, `anthropic`, `google`, `azure`, and `all`. Drop `[<extras>]` to install only the base dependencies.
 
-Replace `vX.Y.Z` with a version from [Releases](https://github.com/brandonwilde/ai-tools/releases), or with `main` to get unreleased changes.
+Replace `vX.Y.Z` with a version from [Releases](https://github.com/brandontwilde/ai-tools/releases), or with `main` to get unreleased changes.
 
 Then import the tools in your script with
 ```python
